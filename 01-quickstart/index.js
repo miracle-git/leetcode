@@ -1,0 +1,1 @@
+export const singleNumber = require('./01-single-number/src/main').default
