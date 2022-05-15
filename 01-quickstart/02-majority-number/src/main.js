@@ -1,6 +1,6 @@
 export default function majorityNumber(nums = []) {
   let count = 0
-  let res = 0
+  let res
 
   nums.reduce((r, s) => {
     s in r ? r[s]++ : (r[s] = 1)
