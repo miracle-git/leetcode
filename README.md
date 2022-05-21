@@ -20,6 +20,7 @@ webpack-dev-server --config webpack.demo.config.js
 npm run test        // 单元测试
 npm run test:watch  // 单元测试(本地运行)
 ```
+- 查看解法示例，可进入每一个算法示例下的README.md
 - 查看测试报告，可在运行单元测试后，打开根目录下的test-report.html
 
 - 接下来，就开始学习前端算法把!

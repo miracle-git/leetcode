@@ -12,8 +12,14 @@ test('测试：查找众数(使用对象哈希)', () => {
   expect(majorityNumber.hash([3, 4, 1, 2, 3, 3, 4, 1, 2, 3, 4])).toEqual(3)
 })
 
-test('测试：查找众数(使用数据排序)', () => {
+test('测试：查找众数(使用数组排序)', () => {
   expect(majorityNumber.sort([2, 2, 1])).toEqual(2)
   expect(majorityNumber.sort([4, 1, 2, 1, 2, 2])).toEqual(2)
   expect(majorityNumber.sort([3, 4, 1, 2, 3, 3, 4, 1, 2, 3, 4])).toEqual(3)
+})
+
+test('测试：查找众数(使用分治递归)', () => {
+  expect(majorityNumber.divide([2, 2, 1])).toEqual(2)
+  expect(majorityNumber.divide([4, 1, 2, 1, 2, 2])).toEqual(2)
+  expect(majorityNumber.divide([3, 4, 1, 2, 3, 3, 4, 1, 2, 3, 4])).toEqual(3)
 })
