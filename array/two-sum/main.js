@@ -1,3 +1,4 @@
+// https://leetcode-cn.com/problems/two-sum/
 export default {
   // 暴力破解
   byAC(nums = [], target) {
