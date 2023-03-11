@@ -19,7 +19,7 @@ npm run test:watch  // 单元测试(带监控模式)
 
 ## 目前已AC的算法列表
 
-| Leetcode NO.| Type | Code | Desc | Test Case |
+| Leet Code NO.| Type | Code | Desc | Test Case |
 |------|------|------|------|------|
-| [<a href="https://leetcode.com/problems/two-sum" target="_blank">$0001</a>](https://leetcode.com/problems/two-sum?_blank) | array | two-sum | 两数之和 | two-sum.test.js |
+| [$0001](https://leetcode.com/problems/two-sum?_blank) | array | two-sum | 两数之和 | two-sum.test.js |
 | [$0002](https://leetcode.com/problems/add-two-numbers?_blank) | linked-list | add-two-numbers | 两数相加 | add-two-numbers.test.js |
