@@ -7,8 +7,14 @@ const cases = [
   { l1: arrayToLinkList([9, 9, 9, 9, 9, 9, 9]), l2: arrayToLinkList([9, 9, 9, 9]), res: arrayToLinkList([8, 9, 9, 9, 0, 0, 0, 1]) }
 ]
 
-test('测试：两数相加(进位法)', () => {
+test('测试：两数相加(虚拟头结点)', () => {
   for(const item of cases) {
     expect(addTwoNumbers.v1(item.l1, item.l2)).toEqual(item.res)
+  }
+})
+
+test('测试：两数相加(进位法)', () => {
+  for(const item of cases) {
+    expect(addTwoNumbers.v2(item.l1, item.l2)).toEqual(item.res)
   }
 })
