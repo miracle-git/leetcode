@@ -21,5 +21,5 @@ npm run test:watch  // 单元测试(带监控模式)
 
 | Leet Code NO.| Type | Code | Desc | Test Case |
 |------|------|------|------|------|
-| [$0001](https://leetcode.com/problems/two-sum?_blank) | array | two-sum | 两数之和 | two-sum.test.js |
-| [$0002](https://leetcode.com/problems/add-two-numbers?_blank) | linked-list | add-two-numbers | 两数相加 | add-two-numbers.test.js |
+| [$0001](https://leetcode.com/problems/two-sum) | array | two-sum | 两数之和 | two-sum.test.js |
+| [$0002](https://leetcode.com/problems/add-two-numbers) | linked-list | add-two-numbers | 两数相加 | add-two-numbers.test.js |
