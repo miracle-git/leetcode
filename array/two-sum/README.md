@@ -1,5 +1,5 @@
-## 解法请见：
-> [Leetcode](https://leetcode.com/problems/two-sum)
+## 题目链接：
+> <a href="https://leetcode.com/problems/two-sum" target="_blank">[Leetcode]</a>
 
 ## 题目大意：
 > 在数组中找到 2 个数之和等于给定值的数字，结果返回 2 个数字在数组中的下标。
