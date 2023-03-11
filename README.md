@@ -18,6 +18,7 @@ npm run test:watch  // 单元测试(带监控模式)
 <font color=#f81d22>`接下来，一起加油，开始算法之旅把!`</font>
 
 ## 目前已AC的算法列表
+
 |------|------|------|------|------|------|
 | Leetcode NO.| Type | Code | Desc | Test Case |
 | [$0001](https://leetcode.com/problems/two-sum) | array | two-sum | 两数之和 | two-sum.test.js |
