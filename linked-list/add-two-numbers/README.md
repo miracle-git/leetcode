@@ -1,5 +1,5 @@
 ## 题目链接：
-- [Leet Code](https://leetcode.com/problems/add-two-numbers){target="_blank"}
+- [Leet Code](https://leetcode.com/problems/add-two-numbers{target="_blank"})
 
 ## 题目大意：
 - 2个逆序的链表，要求从低位开始相加，得出结果也逆序输出，返回值是逆序结果链表的头结点。
