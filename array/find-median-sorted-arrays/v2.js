@@ -9,7 +9,7 @@ export default function findMedianSortedArrays(nums1, nums2) {
 
   const max1 = nums1[m - 1]
   const max2 = nums2[n - 1]
-  nums1[0] > nums2[0] ? nums2.shift() : nums1.shift()
+  nums1[0] < nums2[0] ? nums1.shift() : nums2.shift()
   max1 > max2 ? nums1.pop() : nums2.pop()
 
   return findMedianSortedArrays(nums1, nums2)
