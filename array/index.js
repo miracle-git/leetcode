@@ -13,3 +13,7 @@ export const findMedianSortedArrays = {
 export const maxArea = {
   v1: require('../array/max-area/v1').default
 }
+// https://leetcode.com/problems/3sum
+export const threeSum = {
+  v1: require('../array/three-sum/v1').default
+}
