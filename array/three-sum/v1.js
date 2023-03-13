@@ -20,7 +20,5 @@ export default function threeSum(nums) {
     }
   }
 
-  console.log(res)
-
   return res
 }
