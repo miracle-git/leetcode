@@ -25,3 +25,4 @@ npm run test:watch  // 单元测试(带监控模式)
 | [$0002](https://leetcode.com/problems/add-two-numbers) | linked-list | add-two-numbers | 两数相加 | add-two-numbers.test.js |
 | [$0003](https://leetcode.com/problems/longest-substring-without-repeating-characters) | sliding-window | length-of-longest-substring | 寻找最长无重复子串 | length-of-longest-substring.test.js |
 | [$0004](https://leetcode.com/problems/median-of-two-sorted-arrays) | array | find-median-sorted-array | 寻找排序数组的中位数 | find-median-sorted-array.test.js |
+| [$0011](https://leetcode.com/problems/container-with-most-water) | array | max-area | 最大盛水量 | max-area.test.js |

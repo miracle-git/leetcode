@@ -9,3 +9,7 @@ export const findMedianSortedArrays = {
   v1: require('../array/find-median-sorted-arrays/v1').default,
   v2: require('../array/find-median-sorted-arrays/v2').default
 }
+// https://leetcode.com/problems/container-with-most-water
+export const maxArea = {
+  v1: require('../array/max-area/v1').default
+}
