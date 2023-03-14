@@ -1,24 +1,29 @@
 export default function threeSum(nums) {
-  nums = nums.sort((a, b) => a - b)
-  const res = []
+  const len = nums.length, res = []
+  // 优先对数组进行排序
+  nums.sort((a, b) => a - b)
+  // 只需要查找到倒数第二个数即可
+  for (let i = 0; i < len - 2; i++) {
+    // 已经查找过的数则直接跳过
+    if (i > 0 && nums[i] === nums[i - 1]) continue
 
-  for (let i = 0, len = nums.length; i < len - 1; i++) {
-    const target = nums[i]
-    if (i > 0 && target === nums[i - 1]) continue
-    for (let l = i + 1, r = len - 1; l < r;) {
-      const left = nums[l], right = nums[r]
-      const sum = left + right + target
-      if (sum) {
-        sum < 0 ? l++ : r--
+    let start = i + 1, end = len - 1
+    while (start < end) {
+      const sum = nums[start] + nums[end] + nums[i]
+      if (sum === 0) {
+        // 如果找到 3 个索引位加起来位0，则直接添加并移动左右指针
+        res.push([nums[start++], nums[end--], nums[i]])
+        // 为避免重复，如果下一个数或上一个数与当前相同，可继续移动指针而跳过循环
+        while (nums[start] === nums[start - 1]) start++
+        while (nums[end] === nums[end + 1]) end--
+      } else if (sum > 0) {
+        // 如果大于 0 则移动右指针
+        end--
       } else {
-        res.push([target, left, right])
-        l++
-        while (nums[l] === nums[l - 1] && l < r) {
-          l++
-        }
+        // 如果小于 0 则移动左指针
+        start++
       }
     }
   }
-
   return res
 }
