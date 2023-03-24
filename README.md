@@ -27,3 +27,4 @@ npm run test:watch  // 单元测试(带监控模式)
 | [$0004](https://leetcode.com/problems/median-of-two-sorted-arrays) | array | find-median-sorted-array | 寻找排序数组的中位数 | find-median-sorted-array.test.js |
 | [$0011](https://leetcode.com/problems/container-with-most-water) | array | max-area | 最大盛水量 | max-area.test.js |
 | [$0015](https://leetcode.com/problems/3sum) | array | three-sum | 三数之和 | three-sum.test.js |
+| [$0016](https://leetcode.com/problems/3sum-closest) | array | three-sum-closest | 三数之和 | three-sum-closest.test.js |

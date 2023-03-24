@@ -17,3 +17,7 @@ export const maxArea = {
 export const threeSum = {
   v1: require('../array/three-sum/v1').default
 }
+// https://leetcode.com/problems/3sum-closest
+export const threeSumClosest = {
+  v1: require('../array/three-sum-closest/v1').default
+}
