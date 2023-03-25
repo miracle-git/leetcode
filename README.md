@@ -28,3 +28,4 @@ npm run test:watch  // 单元测试(带监控模式)
 | [$0011](https://leetcode.com/problems/container-with-most-water) | array | max-area | 最大盛水量 | max-area.test.js |
 | [$0015](https://leetcode.com/problems/3sum) | array | three-sum | 三数之和 | three-sum.test.js |
 | [$0016](https://leetcode.com/problems/3sum-closest) | array | three-sum-closest | 三数之和 | three-sum-closest.test.js |
+| [$0018](https://leetcode.com/problems/4sum) | array | four-sum | 四数之和 | four-sum.test.js |

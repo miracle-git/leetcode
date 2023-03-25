@@ -2,7 +2,7 @@ export default function threeSum(nums) {
   const len = nums.length, res = []
   // 优先对数组进行排序
   nums.sort((a, b) => a - b)
-  // 只需要查找到倒数第二个数即可
+  // 只需要查找到倒数第三个数即可
   for (let i = 0; i < len - 2; i++) {
     // 已经查找过的数则直接跳过
     if (i > 0 && nums[i] === nums[i - 1]) continue
