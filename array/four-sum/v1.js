@@ -1,11 +1,11 @@
 export default function fourSum(nums, target) {
-   const len = nums.length, res = []
+  const len = nums.length, res = []
   // 优先对数组进行排序
   nums.sort((a, b) => a - b)
-  for (let i = 0; i < len - 1; i++) {
+  for (let i = 0; i < len - 3; i++) {
     // 已经查找过的数则直接跳过
     if (i > 0 && nums[i] === nums[i - 1]) continue
-    for (let j = i + 1; j < len; j++) {
+    for (let j = i + 1; j < len - 2; j++) {
       if (i + 1 < j && nums[j] === nums[j - 1]) continue
       // 定义左右指针(左指针指向第一个数而不是第0个，因为第0个数为target)
       let start = j + 1, end = len - 1

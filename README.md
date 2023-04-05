@@ -9,7 +9,7 @@ npm install
 - 如果需要运行单元测试，请在根目录下运行
 ```bash
 npm run test        // 单元测试
-npm run test:watch  // 单元测试(带监控模式)
+npm run test:watch  // 单元测试(监控模式)
 ```
 - 查看解法示例，可进入每一个算法示例下的README.md
 - 查看测试报告，可在运行单元测试后，打开测试套件目录(__tests__/report/jest_html_reporters.html)
@@ -28,4 +28,5 @@ npm run test:watch  // 单元测试(带监控模式)
 | [$0011](https://leetcode.com/problems/container-with-most-water) | array | max-area | 最大盛水量 | max-area.test.js |
 | [$0015](https://leetcode.com/problems/3sum) | array | three-sum | 三数之和 | three-sum.test.js |
 | [$0016](https://leetcode.com/problems/3sum-closest) | array | three-sum-closest | 三数之和 | three-sum-closest.test.js |
+| [$0017](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | depth-first-search | letter-combinations | 电话号码组合 | letter-combinations.test.js |
 | [$0018](https://leetcode.com/problems/4sum) | array | four-sum | 四数之和 | four-sum.test.js |
